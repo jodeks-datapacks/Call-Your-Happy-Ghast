@@ -1,0 +1,1 @@
+$data modify entity @e[limit=1,tag=happy_ghast_to_call] data set value {Owner:$(Owner)}

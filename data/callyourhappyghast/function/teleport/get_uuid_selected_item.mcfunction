@@ -1,0 +1,3 @@
+data modify storage callyourhappyghast:root happy_ghast_UUID_from_horn set from entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{tag:{goat_horn_to_call_happy_ghast:1b}}}}}] SelectedItem.components."minecraft:custom_data".happy_ghast_call.UUID
+
+function callyourhappyghast:teleport/check_for_teleport with storage callyourhappyghast:root

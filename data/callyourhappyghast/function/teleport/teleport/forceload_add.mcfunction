@@ -1,0 +1,9 @@
+
+$execute in minecraft:overworld run forceload add $(happy_ghast_UUID_latest_position_x) $(happy_ghast_UUID_latest_position_z)
+$execute in minecraft:the_nether run forceload add $(happy_ghast_UUID_latest_position_x) $(happy_ghast_UUID_latest_position_z)
+$execute in minecraft:the_end run forceload add $(happy_ghast_UUID_latest_position_x) $(happy_ghast_UUID_latest_position_z)
+
+# $say add $(happy_ghast_UUID_latest_position_x) $(happy_ghast_UUID_latest_position_z)
+
+data modify storage callyourhappyghast:root happy_ghast_UUID_latest_position_x_forceload set from storage callyourhappyghast:root happy_ghast_UUID_latest_position_x
+data modify storage callyourhappyghast:root happy_ghast_UUID_latest_position_z_forceload set from storage callyourhappyghast:root happy_ghast_UUID_latest_position_z
