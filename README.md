@@ -1,19 +1,18 @@
-# Call Your Happy Ghast
-
-<div style="display: flex; gap: 20px;">
-<a href="https://ko-fi.com/H2H011LYHJ"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"/></a>
+<div align="center">
   
-<a href="https://github.com/sponsors/Jodekq" target="_blank">
-  <img src="https://img.shields.io/badge/Sponsor-Jodek-green?style=for-the-badge&logo=github&logoWidth=20" alt="Sponsor @Jodek" />
-</a>
+![minecraft datapack happy ghast call happy ghast whsitle happy ghast mod](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/callyourhappyghast_title.png)
+
 </div>
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
-</picture>
- 
-Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or create an issue on github_
+<div align="center">
+
+[![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
+[![matrix - datapacks matrix - jodeks datapacks matrix](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
+[![armor stand arms minecraft datapack github issues](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Issues.png)](https://github.com/jodeks-datapacks/Call-Your-Happy-Ghast/issues)&nbsp;&nbsp;
+[![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
+[![github sponsor jodek donation datapacks minecraft](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Sponsor_Pink.png)](https://github.com/sponsors/Jodekq)
+
+</div>
 
 ### Easily call your happy ghast with a goat horn whenever you need it
 
@@ -43,11 +42,10 @@ _The happy ghast can be anywhere, it always works to teleport it to you, even in
 /trigger callyourhappyghast.config
 ```
 You can configure 3 things:
-- If players can be mounted on happy ghasts if you teleport it
+- If players can sit on the happy ghasts if you teleport it
 - If players should automatically mount the happy ghast after calling it
 - If only the first player who bound a horn to a happy ghast can bound more horns to it 
   - To make the happy ghast free for other players again, the player needs to unbind every horn bound to the happy ghast
-
 
 ## Guides
 

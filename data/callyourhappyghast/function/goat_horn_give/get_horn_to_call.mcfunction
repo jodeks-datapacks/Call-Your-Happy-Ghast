@@ -18,6 +18,8 @@ function callyourhappyghast:get_data/goat_horn_instrument
 
 function callyourhappyghast:get_data/player_name
 
+function callyourhappyghast:get_data/audioplayer
+
 # If happy_ghast_owner setting is enabled
 execute if score &happy_ghast_owner callyourhappyghast.config matches 1 run data modify storage callyourhappyghast:root Owner set from entity @s UUID
 execute if score &happy_ghast_owner callyourhappyghast.config matches 1 run function callyourhappyghast:goat_horn_give/set_owner with storage callyourhappyghast:root
@@ -42,3 +44,4 @@ data remove storage callyourhappyghast:root happy_ghast_UUID_to_call
 data remove storage callyourhappyghast:root happy_ghast_UUID_to_call_0
 data remove storage callyourhappyghast:root happy_ghast_name
 data remove storage callyourhappyghast:root player_name
+data remove storage callyourhappyghast:root audioplayer
