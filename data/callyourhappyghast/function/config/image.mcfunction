@@ -16,7 +16,7 @@ function callyourhappyghast:image/set_image_data {\
     "Call Your Happy Ghast",\
     {text: "Easily Easily call (whistle) your happy ghast with a goat horn to teleport it to you", color: "#aaaaaa"},\
     "",\
-    [{text: "Datapack version: ", color: "#00a800"}, {text: "v1.2.1", color: "#54fc54"}],\
+    [{text: "Datapack version: ", color: "#00a800"}, {text: "v1.2.2", color: "#54fc54"}],\
     [{text: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
     "",\
     [{text: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
