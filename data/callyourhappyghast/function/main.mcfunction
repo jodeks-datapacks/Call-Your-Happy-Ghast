@@ -14,4 +14,4 @@ execute as @a[scores={sneak_time.callyourhappyghast=40..}] run scoreboard player
 
 scoreboard players enable @a callyourhappyghast.config
 execute as @a if score @s callyourhappyghast.config matches 1 run \
- function callyourhappyghast:config/dialog_config with storage callyourhappyghast:root
+ function callyourhappyghast:config/dialog_config with storage callyourhappyghast:root data

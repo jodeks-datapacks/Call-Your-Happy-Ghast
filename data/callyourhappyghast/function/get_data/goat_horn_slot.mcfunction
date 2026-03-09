@@ -1,1 +1,1 @@
-data modify storage callyourhappyghast:root goat_horn_slot set from entity @s SelectedItemSlot
+data modify storage callyourhappyghast:root data.goat_horn_slot set from entity @s SelectedItemSlot

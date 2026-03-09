@@ -6,11 +6,11 @@ $execute if score $(happy_ghast_UUID_from_horn_0) callyourhappyghast.bound_goat_
 
 $tag @e[type=happy_ghast,tag=happy_ghast_can_called,nbt={UUID:$(happy_ghast_UUID_from_horn)},limit=1] remove happy_ghast_can_called
 
-$data remove storage callyourhappyghast:root happy_ghast_Pos."$(happy_ghast_UUID_from_horn).x"
+$data remove storage callyourhappyghast:root data.happy_ghast_Pos."$(happy_ghast_UUID_from_horn).x"
 
-$data remove storage callyourhappyghast:root happy_ghast_Pos."$(happy_ghast_UUID_from_horn).z"
+$data remove storage callyourhappyghast:root data.happy_ghast_Pos."$(happy_ghast_UUID_from_horn).z"
 
-data remove storage callyourhappyghast:root goat_horn_instrument
-data remove storage callyourhappyghast:root goat_horn_slot
-data remove storage callyourhappyghast:root happy_ghast_UUID_from_horn
-data remove storage callyourhappyghast:root happy_ghast_UUID_from_horn_0
+data remove storage callyourhappyghast:root data.goat_horn_instrument
+data remove storage callyourhappyghast:root data.goat_horn_slot
+data remove storage callyourhappyghast:root data.happy_ghast_UUID_from_horn
+data remove storage callyourhappyghast:root data.happy_ghast_UUID_from_horn_0
