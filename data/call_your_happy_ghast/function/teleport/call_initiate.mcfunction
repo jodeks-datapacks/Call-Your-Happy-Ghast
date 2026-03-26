@@ -1,0 +1,1 @@
+function call_your_happy_ghast:teleport/initiate_teleport with storage call_your_happy_ghast:root data

@@ -1,13 +1,13 @@
 {
   "pack": {
-    "min_format": [80,0],
-    "max_format": [999,0],
+    "min_format": [80, 0],
+    "max_format": [999, 0],
 
     "pack_format": 80,
-    "supported_formats": [80,999],
+    "supported_formats": [80, 999],
     "description": [
       {
-        "text": "\"Call Your Happy Ghast\" (callyourhappyghast)"
+        "text": "\"Call Your Happy Ghast\" (call_your_happy_ghast)"
       },
       "\n",
       {
@@ -19,7 +19,7 @@
         "text": "Version "
       },
       {
-        "text": "1.2.2",
+        "text": "1.2.3",
         "color": "#55ff55"
       },
       {

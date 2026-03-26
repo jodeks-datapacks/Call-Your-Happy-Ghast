@@ -1,0 +1,17 @@
+data modify storage call_your_happy_ghast:root data.player_UUID set from entity @s UUID
+
+function call_your_happy_ghast:teleport/get_latest_position with storage call_your_happy_ghast:root data
+
+function call_your_happy_ghast:get_data/leashed_uuid with storage call_your_happy_ghast:root data
+
+
+execute store result score happy_ghast_UUID_lates_position_x store_position.call_your_happy_ghast run data get storage call_your_happy_ghast:root data.happy_ghast_UUID_latest_position_x
+
+execute store result score happy_ghast_UUID_lates_position_z store_position.call_your_happy_ghast run data get storage call_your_happy_ghast:root data.happy_ghast_UUID_latest_position_z
+
+execute store result storage call_your_happy_ghast:root data.happy_ghast_UUID_latest_position_x int 1 run scoreboard players get happy_ghast_UUID_lates_position_x store_position.call_your_happy_ghast
+
+execute store result storage call_your_happy_ghast:root data.happy_ghast_UUID_latest_position_z int 1 run scoreboard players get happy_ghast_UUID_lates_position_z store_position.call_your_happy_ghast
+
+
+schedule function call_your_happy_ghast:teleport/call_initiate 1t

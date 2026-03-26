@@ -1,0 +1,2 @@
+data modify storage call_your_happy_ghast:root data.goat_horn_audioplayer set value ''
+data modify storage call_your_happy_ghast:root data.goat_horn_audioplayer set from entity @s SelectedItem.components."minecraft:custom_data".audioplayer
