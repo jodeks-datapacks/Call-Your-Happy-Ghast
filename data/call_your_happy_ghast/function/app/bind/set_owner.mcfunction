@@ -1,0 +1,1 @@
+$data modify entity @s data.Owner set value $(UUID)

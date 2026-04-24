@@ -1,10 +1,8 @@
 {
   "pack": {
-    "min_format": [80, 0],
+    "pack_format": 94,
+    "min_format": [94, 0],
     "max_format": [999, 0],
-
-    "pack_format": 80,
-    "supported_formats": [80, 999],
     "description": [
       {
         "text": "\"Call Your Happy Ghast\" (call_your_happy_ghast)"
@@ -12,7 +10,7 @@
       "\n",
       {
         "translate": "call_your_happy_ghast.description",
-        "fallback": "Easily call (whistle) your happy ghast with a goat horn to teleport it to you",
+        "fallback": "Easily call (whistle) your Happy Ghast with a goat horn to teleport it to you",
         "color": "#aaaaaa"
       },
       "\n\n",
@@ -24,10 +22,23 @@
         "text": " "
       },
       {
-        "text": "1.2.3",
+        "text": "2.0.0",
         "color": "#55ff55"
       },
-
+      {
+        "text": " "
+      },
+      {
+        "translate": "jodek.for_minecraft",
+        "fallback": "for Minecraft"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "1.21.6+",
+        "color": "#55ff55"
+      },
       "\n",
       {
         "translate": "jodek.by",

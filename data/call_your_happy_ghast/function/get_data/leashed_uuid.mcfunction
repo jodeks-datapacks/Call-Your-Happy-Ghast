@@ -1,1 +1,0 @@
-$execute as @e[type=happy_ghast,nbt={UUID:$(happy_ghast_UUID_from_horn)}] if data entity @s leash run data modify storage call_your_happy_ghast:root data.happy_ghast_leashed_UUID set from entity @s leash.UUID

@@ -1,6 +1,6 @@
 <div align="center">
   
-![minecraft datapack happy ghast call happy ghast whsitle happy ghast mod](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/titles/call_your_happy_ghast.png)
+![minecraft happy_ghast datapack call your happy_ghast mod whistle happy_ghast](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/titles/call_your_happy_ghast.png)
 
 </div>
 
@@ -8,45 +8,50 @@
 
 [![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
 [![matrix - datapacks matrix - jodeks datapacks matrix](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
-[![armor stand arms minecraft datapack github issues](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/GH_Issues.png)](https://github.com/jodeks-datapacks/call-your-happy-ghast/issues)&nbsp;&nbsp;
-[![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](
-https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
+[![armor stand arms minecraft datapack github issues](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/GH_Issues.png)](https://github.com/jodeks-datapacks/call-your-happy_ghast/issues)&nbsp;&nbsp;
+[![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
 [![github sponsor jodek donation datapacks minecraft](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/GH_Sponsor.png)](https://github.com/sponsors/Jodekq)
 
 </div>
 
-### Easily call your happy ghast with a goat horn whenever you need it
+### Easily call your happy_ghast with a goat horn whenever you need it
 
-_The happy ghast can be anywhere, it always works to teleport it to you, even in unloaded chunks_
+_The happy_ghast can be anywhere, it always works to teleport it to you, even in unloaded chunks_
 
 ## How it works
 
-**1.** Give the happy ghast any name (it can't have special characters like # or ')
+**1.** Tame a happy_ghast
 
-**2.** Hold any goat horn you want in your hand
+**2.** Give the happy_ghast any name (it can not include special characters like # or ')
 
-**3.** Sneak and look at the happy ghast for 4 seconds
+**3.** Hold any goat horn you want in your hand
 
-**5.** You will then get a horn that looks enchanted and has the name of the happy ghast
+**4.** Sneak and look at the happy_ghast for 4 seconds
 
-**6.** Whenever you use the horn, it will teleport to you
+**4.** You will then get a horn that looks enchanted and has the name of the happy_ghast
 
---> Anyone with the horn can call the happy ghast
+**5.** Whenever you use the horn, it will teleport to you
+
+--> Only the owner of the happy_ghast can get the goat horn + use the goat horn to call the happy_ghast (you can change that with the config)
 
 --> To unbind/reset the horn, sneak + look directly up
 
-**Leashed entities also teleport with the happy ghast (make sure to first attach the leash to the happy ghast, and then to the entity)**
+---
+
+**Works for** happy_ghast and zombie happy_ghast **by default**
 
 ## Config
 
 ```
 /trigger call_your_happy_ghast.config
 ```
-You can configure 3 things:
-- If players can sit on the happy ghasts if you teleport it
-- If players should automatically mount the happy ghast after calling it
-- If only the first player who bound a horn to a happy ghast can bound more horns to it 
-  - To make the happy ghast free for other players again, the player needs to unbind every horn bound to the happy ghast
+
+- You can change if you autoamtically mount the happy_ghast
+- You can change if the player needs to be in water to call it
+
+## Showcase
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7kVfUDHsRTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Guides
 
@@ -55,7 +60,7 @@ You can configure 3 things:
   <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
  </picture><br>
 
- If something doesn't work, feel free to join the [discord server](https://discord.gg/z2n3qTzQY6)
+If something doesn't work, feel free to join the [discord server](https://discord.gg/z2n3qTzQY6)
 
 <details>
   <summary>How to Install a Datapack in Singleplayer</summary>
@@ -75,7 +80,6 @@ You can configure 3 things:
 
 3. **Add the Datapack**  
    Drag the datapack (a `.zip` file or directory) into the Minecraft window.
-
    - A confirmation screen will appear. Click **"Yes"**.
 
 4. **Activate the Datapack**  
@@ -83,19 +87,21 @@ You can configure 3 things:
 
 ![Minecraft Settings Image](https://cdn.modrinth.com/data/cached_images/7997495b82957b1f318b28f8de321508d6d43f19_0.webp)
 
-5. **Complete World Creation**  
-   - Click **"Done"** at the bottom of the screen.  
+5. **Complete World Creation**
+   - Click **"Done"** at the bottom of the screen.
    - Continue creating your world and click **"Create New World"**.
 
 ---
 
 ### ⚠️ IMPORTANT ⚠️
-The datapack only works if cheats are enabled.  
+
+The datapack only works if cheats are enabled.
 
 You can verify the datapack is active by typing:  
 `/datapack list enabled`
 
 This command should list an entry named `[file/<your datapack file/directory name>]`.
+
   </details>
   
   <details>
@@ -106,25 +112,27 @@ This command should list an entry named `[file/<your datapack file/directory nam
 1. **Open Minecraft**  
    Launch the game.
 
-2. **Select Your World**  
+2. **Select Your World**
    - Choose the world you want to install the datapack for.
    - Click **"Edit"**, then **"Open World Folder"**.
 
-3. **Add the Datapack**  
-   - Open the folder named `datapacks`.  
+3. **Add the Datapack**
+   - Open the folder named `datapacks`.
    - Place the datapack into this folder. It should be a `.zip` file or a directory.
 
-4. **Reload the World**  
+4. **Reload the World**
    - If you are in the world during installation, type `/reload` in the chat or press **F3 + T** to reload resources.  
-   *(Make sure cheats are enabled.)*
+     _(Make sure cheats are enabled.)_
 
 ---
 
 ### ⚠️ IMPORTANT ⚠️
+
 The datapack only works if cheats are enabled.
 
 You can verify the datapack is active by typing:  
 `/datapack list enabled`
+
   </details>
   
   <details>
@@ -138,13 +146,15 @@ But don't worry this works without any problems.
 If you don't want to change this permanently check out [this guide](#).
 
 ### 1. You need [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/tag/v2.8.0-win)
+
 > NBTExplorer is an open-source NBT editor for all common sources of NBT data. It's mainly intended for editing Minecraft game data.
- 
+
 ### 2. Open NBTExplorer and open your Minecraft world, where you want to enable Cheats/Admincommands.
 
 ![NBTExplorer Image](https://cdn.discordapp.com/attachments/1270449267961757726/1270449504532955247/image.png?ex=674ea60d&is=674d548d&hm=dfabe212b0cb5c712f588e3c13e7ea33f5ee7040456cbead753f2e76b9dfa87f&)
 
 ### 3. Navigate to:
+
 - `<Your Minecraft World>`
 - `level.dat`
 - `Data`
@@ -165,7 +175,6 @@ If you don't want to change this permanently check out [this guide](#).
 ![Save Image](https://cdn.discordapp.com/attachments/1270449267961757726/1270450071997124638/image.png?ex=674ea694&is=674d5514&hm=791b00e3692832d9054e346700ca6e40976d9356f9d598830eed1dd42741f372&)
 
 That's it. You are done. You can now join your world and check if you have permission to change your `gamemode`, for example.
-
 
   </details>
   
@@ -208,16 +217,15 @@ Now, you should be able to use commands like changing your gamemode. Keep in min
 1. **Open Your Server Folder**  
    Navigate to your server folder, then open the folder for the world you wish to install the datapack in (default: `world`).
 
-2. **Add the Datapack**  
-   - The datapack should be a `.zip` file.  
+2. **Add the Datapack**
+   - The datapack should be a `.zip` file.
    - Place the datapack into a folder named `datapacks` inside the world folder.
 
-3. **Reload the Server**  
+3. **Reload the Server**
    - Type `/reload` from the console or as a level 3 operator if the server was running during the installation.
-</details>
-<details>
-  <summary>How to Uninstall a Datapack</summary>
-
+   </details>
+   <details>
+     <summary>How to Uninstall a Datapack</summary>
 
 ### How to Uninstall a Datapack from Your Singleplayer World or Server
 
@@ -225,44 +233,45 @@ Now, you should be able to use commands like changing your gamemode. Keep in min
    For my datapacks, run the command:  
    `/function datapack_name:uninstall`
 
-2. **Delete the Datapack**  
-   - Delete the datapack from the folder you placed it in.  
+2. **Delete the Datapack**
+   - Delete the datapack from the folder you placed it in.
    - Alternatively, you can run:  
      `/datapack disable [file/your data pack file/directory name]`
 
 3. **Reload the World or Server**  
-   After deleting or disabling the datapack, run:  
-   `/reload`
+ After deleting or disabling the datapack, run:  
+ `/reload`
 </details>
 <details>
   <summary>How to Install a Mod on a Minecraft Server</summary>
 
 ### Step-by-Step Guide to Installing a Mod on a Minecraft Server
 
-1. **Download the Mod**  
+1. **Download the Mod**
    - Make sure to download the **correct version** of the Mod that matches your server's Minecraft version.
    - **Important:** The mod file should be a `.jar` file.
 
-2. **Ensure No Datapacks or Other Mods Conflict**  
+2. **Ensure No Datapacks or Other Mods Conflict**
    - Do not have both a datapack and a mod installed at the same time, as they may conflict.
    - Only install one or the other, depending on your server's setup.
 
-3. **Locate the Mods Folder**  
+3. **Locate the Mods Folder**
    - Open your server's root directory.
-   - Inside this directory, find the folder named `mods`.  
+   - Inside this directory, find the folder named `mods`.
    - If the `mods` folder doesn't exist, create one.
 
-4. **Install the Mod**  
+4. **Install the Mod**
    - Paste the downloaded `.jar` file for the Mod into the `mods` folder.
 
-5. **Restart the Server**  
+5. **Restart the Server**
    - After adding the Mod to the `mods` folder, restart your Minecraft server for the mod to be activated.
 
-6. **Verify Mod Installation**  
+6. **Verify Mod Installation**
    - Once the server has restarted, join the server and check if the Mod is working.
    - You can use `/mods` or a similar command (depending on the mod) to see if the Mod has been successfully loaded.
 
 ### Additional Tips
+
 - **Backup Your Server:** Always create a backup before installing the Mod to avoid data loss in case something goes wrong.
 - **Ensure Mod Compatibility:** Check that the Mod is compatible with your Minecraft server version and any other mods you have installed.
 </details>

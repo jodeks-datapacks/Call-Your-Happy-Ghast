@@ -1,3 +1,6 @@
 {
-  "values": ["call_your_happy_ghast:setup", "call_your_happy_ghast:load_message"]
+  "values": [
+    "call_your_happy_ghast:app/setup",
+    "call_your_happy_ghast:app/load_message"
+  ]
 }

@@ -1,0 +1,1 @@
+$teleport @e[nbt=$(leash),limit=1] @s

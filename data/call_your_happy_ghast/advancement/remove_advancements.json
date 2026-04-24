@@ -25,7 +25,7 @@
                 "advancements": {
                   "jodek:call_your_happy_ghast": true,
                   "jodek:root": true,
-                  "jodek:pets": true
+                  "jodek:utility": true
                 }
               }
             }

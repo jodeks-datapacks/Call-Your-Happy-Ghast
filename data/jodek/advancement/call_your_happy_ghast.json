@@ -3,11 +3,11 @@
     "icon": {
       "id": "minecraft:goat_horn"
     },
-    "title": "Call Your Happy Ghast            ",
+    "title": "Call Your Happy Ghast         ",
     "description": [
       {
         "translate": "call_your_happy_ghast.description",
-        "fallback": "Easily Easily call (whistle) your happy ghast with a goat horn to teleport it to you",
+        "fallback": "Easily Easily call (whistle) your Happy Ghast with a goat horn to teleport it to you",
         "color": "white"
       },
       {
@@ -26,14 +26,19 @@
         "color": "dark_green"
       },
       {
-        "text": "v1.2.3",
+        "text": "v2.0.0",
+        "color": "green"
+      },
+
+      {
+        "text": "1.21.6+",
         "color": "green"
       },
       {
         "text": "\n\n"
       },
       {
-        "text": "modrinth.com/datapack/call-your-happy-ghast",
+        "text": "modrinth.com/datapack/call-your-happy_ghast",
         "color": "dark_purple"
       }
     ],

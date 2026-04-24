@@ -14,12 +14,13 @@ function call_your_happy_ghast:image/set_image_data {\
   background_color: "#303030",\
   description: [\
     {text: "Call Your Happy Ghast"},\
-    {translate: "call_your_happy_ghast.description", fallback: "Easily Easily call (whistle) your happy ghast with a goat horn to teleport it to you"},\
+    {translate: "call_your_happy_ghast.description", fallback: "Easily Easily call (whistle) your Happy Ghast with a goat horn to teleport it to you"},\
     "",\
-    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v1.2.3", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.0.0", color: "#54fc54"}],\
+    [{translate: "jodek.game_version", fallback: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
-    {text: "modrinth.com/datapack/call-your-happy-ghast", color: "#a800a8"},\
+    {text: "modrinth.com/datapack/call-your-happy_ghast", color: "#a800a8"},\
     "",\
     "",\
     "",\
