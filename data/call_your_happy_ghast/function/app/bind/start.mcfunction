@@ -12,4 +12,3 @@ data remove storage call_your_happy_ghast:root data.player_name
 data remove storage call_your_happy_ghast:root data.UUID
 data remove storage call_your_happy_ghast:root data.instrument
 data remove storage call_your_happy_ghast:root data.audioplayer
-data remove storage call_your_happy_ghast:root data.Owner

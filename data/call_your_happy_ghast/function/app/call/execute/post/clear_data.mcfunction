@@ -4,7 +4,6 @@ data remove storage call_your_happy_ghast:root data.latest_position_y
 data remove storage call_your_happy_ghast:root data.UUID_from_item
 data remove storage call_your_happy_ghast:root data.latest_position_x_forceload
 data remove storage call_your_happy_ghast:root data.latest_position_y_forceload
-# data remove storage call_your_happy_ghast:root data.Owner
 # data remove storage call_your_happy_ghast:root data.UUID_temp
 
 data remove storage call_your_happy_ghast:root data.selected_item_slot
