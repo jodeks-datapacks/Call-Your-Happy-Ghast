@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific/player": {
+                "looking_at": {
+                  "entity_type": "happy_ghast",
+                  "distance": {
+                    "absolute": {
+                      "min": 0,
+                      "max": 10
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
