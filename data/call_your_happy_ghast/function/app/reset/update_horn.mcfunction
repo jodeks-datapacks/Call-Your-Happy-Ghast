@@ -1,4 +1,4 @@
-$tag @e[predicate=call_your_happy_ghast:callable,tag=jodek.can_be_called,nbt={UUID:$(UUID_from_item)}] remove jodek.can_be_called
+$tag @e[predicate=jodek:call_your/happy_ghast,tag=jodek.can_be_called,nbt={UUID:$(UUID_from_item)}] remove jodek.can_be_called
 
 $data remove storage call_your_happy_ghast:root data.happy_ghast_Pos."$(UUID_from_item).x"
 
